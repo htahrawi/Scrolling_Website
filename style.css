@@ -48,6 +48,8 @@ header ul li a:hover, .active{
     width: 100%;
     display: flex;
     justify-content: center;
+    overflow: hidden;
+    align-items: center;
 }
 .main::after{
     content: '';
@@ -72,6 +74,7 @@ header ul li a:hover, .active{
     font-size: 25px;
     text-transform: uppercase;
     transform: translateY(-140px);
+    z-index: 999;
 }
 .content{
     color: white;
